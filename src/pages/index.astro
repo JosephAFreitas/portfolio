@@ -1,11 +1,250 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Welcome />
+	<main class="max-w-3xl mx-auto px-6 py-24 text-zinc-400">
+		
+		<section class="mb-20">
+			<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-medium mb-6"><span class="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span><span class="text-amber-300 font-semibold">Now</span> Engineering Data &amp; Analytics @ Siemens Energy • Finishing CS @ UCF</div>
+			<h1 class="text-4xl font-bold mb-4 text-zinc-100">Joseph Freitas</h1>
+			<h2 class="text-xl text-cyan-400 font-semibold mb-6">Data Engineer &amp; BI Developer</h2>
+			
+			<p class="text-lg text-zinc-400 leading-relaxed mb-8">
+				I build end-to-end data pipelines, dimensional semantic models, and AI-augmented analytics architecture. Currently studying Computer Science at the University of Central Florida, with enterprise experience engineering automated reporting, backend logistics, and integrating local LLMs for automated data processing and sentiment extraction.
+			</p>
+
+			<div class="p-4 my-8 rounded-xl bg-zinc-900/40 border border-zinc-800 text-zinc-300 text-sm italic">
+				I approach data engineering through the lens of operational efficiency—having managed high-volume supply chains, I build pipelines and semantic models designed to eliminate bottlenecks, automate reporting, and scale cleanly under load.
+			</div>
+
+			<div class="flex flex-wrap gap-2 mb-8">
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Python</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Power BI</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Azure</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Docker</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Airflow</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">PostgreSQL</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">React</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">Node.js</span>
+				<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300 hover:border-cyan-400 hover:text-cyan-400 transition-colors">DAX</span>
+			</div>
+
+			<div class="flex gap-4">
+				<a href="https://github.com/JosephAFreitas" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-zinc-800/50 border border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-cyan-400 hover:border-cyan-400 transition-all">
+					<svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.9.58.11.79-.25.79-.56v-2.12c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.48.11-3.08 0 0 .97-.31 3.18 1.18a10.95 10.95 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.6.23 2.79.11 3.08.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.67.42.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+					GitHub
+				</a>
+				<a href="https://www.linkedin.com/in/joseph-freitas-35897a3a8" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-zinc-800/50 border border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-cyan-400 hover:border-cyan-400 transition-all">
+					<svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current"><path d="M6.94 8.5A1.56 1.56 0 1 1 6.94 5.4a1.56 1.56 0 0 1 0 3.1ZM5.5 9.78h2.9v8.72H5.5V9.78Zm4.8 0h2.77v1.19h.04c.39-.73 1.33-1.5 2.74-1.5 2.93 0 3.47 1.92 3.47 4.42v6.61h-2.9v-6.18c0-1.47-.03-3.37-2.05-3.37-2.05 0-2.37 1.6-2.37 3.25v6.3h-2.9V9.78Z"/></svg>
+					LinkedIn
+				</a>
+				<a href="/JosephAFreitas2026-9-7Resume.pdf" target="_blank" class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-zinc-800/50 border border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-cyan-400 hover:border-cyan-400 transition-all">
+					<svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-none stroke-current stroke-[1.8]"><path d="M7 3.75h6.75L18.25 9v10.25A1.5 1.5 0 0 1 16.75 20.75h-9.5A1.5 1.5 0 0 1 5.75 19.25V5.25A1.5 1.5 0 0 1 7 3.75Z"/><path d="M13.75 3.75V9h5.5"/><path d="M8.5 12.5h7"/><path d="M8.5 15.5h7"/></svg>
+					Resume
+				</a>
+			</div>
+
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12">
+				<div class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-center">
+					<p class="text-2xl font-bold text-cyan-400">$519K</p>
+					<p class="text-sm text-zinc-400">Sales Recovered at Target</p>
+				</div>
+				<div class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-center">
+					<p class="text-2xl font-bold text-cyan-400">1M+</p>
+					<p class="text-sm text-zinc-400">Rows Processed in Power BI</p>
+				</div>
+				<div class="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 text-center">
+					<p class="text-2xl font-bold text-cyan-400">30+</p>
+					<p class="text-sm text-zinc-400">Table Schemas Architected</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="experience" class="mb-20">
+			<h2 class="text-2xl font-semibold mb-6 text-zinc-100">Experience</h2>
+
+			<div class="space-y-6">
+				<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors">
+					<div class="mb-4 flex items-start justify-between gap-4">
+						<div>
+							<h3 class="text-xl font-semibold text-cyan-400">Data &amp; Analytics Engineer</h3>
+							<p class="mt-1 text-lg text-zinc-500">Siemens Energy</p>
+						</div>
+						<div class="flex flex-col items-end">
+							<p class="text-sm font-medium text-zinc-500 whitespace-nowrap">August 2026 – Present</p>
+							<span class="mt-2 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">Power Platform &amp; BI Engineering</span>
+						</div>
+					</div>
+
+					<ul class="space-y-2 text-base text-zinc-400 leading-relaxed list-disc pl-5">
+						<li>Architected a Quality Resource Scheduler ecosystem using Power Apps and Power Automate to digitize operational workflows and eliminate manual data entry.</li>
+						<li>Engineered real-time calculation engines processing 12 distinct absence types and schedule conflicts with time-sensitive scoring logic.</li>
+						<li>Consolidated custom application data sources into unified reporting dashboards to close the enterprise data loop.</li>
+					</ul>
+				</article>
+
+				<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors">
+					<div class="mb-4 flex items-start justify-between gap-4">
+						<div>
+							<h3 class="text-xl font-semibold text-cyan-400">Quality Data Systems Enhancement Intern</h3>
+							<p class="mt-1 text-lg text-zinc-500">Siemens Energy</p>
+						</div>
+						<div class="flex flex-col items-end">
+							<p class="text-sm font-medium text-zinc-500 whitespace-nowrap">May 2026 – August 2026</p>
+							<span class="mt-2 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">Azure Data + BI</span>
+						</div>
+					</div>
+
+					<ul class="space-y-2 text-base text-zinc-400 leading-relaxed list-disc pl-5">
+						<li>Engineered end-to-end ETL pipelines from operational systems into Azure Workspaces and Azure Dataflows using Power Query.</li>
+						<li>Architected a 30+ table dimensional semantic model in Power BI, processing 1M+ rows to establish a governed analytics environment.</li>
+						<li>Developed automated, parameterized paginated reports using DAX to replace fragmented manual reporting for executive management.</li>
+					</ul>
+				</article>
+
+				<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors">
+					<div class="mb-4 flex items-start justify-between gap-4">
+						<div>
+							<h3 class="text-xl font-semibold text-cyan-400">Fulfillment Operations Team Lead</h3>
+							<p class="mt-1 text-lg text-zinc-500">Target</p>
+						</div>
+						<div class="flex flex-col items-end">
+							<p class="text-sm font-medium text-zinc-500 whitespace-nowrap">February 2024 – May 2026</p>
+							<span class="mt-2 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">Logistics Ops</span>
+						</div>
+					</div>
+
+					<ul class="space-y-2 text-base text-zinc-400 leading-relaxed list-disc pl-5">
+						<li>Directed high-volume logistics and inventory throughput, managing 2.5M+ units annually across multi-department fulfillment operations.</li>
+						<li>Implemented rigorous inventory accuracy protocols that reduced Item Not Found (INF) rates by 30.7% and recovered $519K in lost sales.</li>
+						<li>Maintained a 99% Ship on Time metric while leading and developing teams of up to 50 members.</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<section class="mb-20">
+			<h2 class="text-zinc-100 text-2xl font-bold mb-6">Projects</h2>
+
+			<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors relative">
+				<span class="absolute right-4 top-4 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">AI + Retail Ops</span>
+				<h3 class="text-cyan-400 font-semibold text-lg">AI-Augmented Retail Operations Pipeline</h3>
+				<div class="mb-4 flex flex-wrap gap-2 text-xs text-zinc-500">
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2c3.5 4.2 4.8 7.1 4.8 10.1A4.8 4.8 0 0 1 12 17a4.8 4.8 0 0 1-4.8-4.9C7.2 9.1 8.5 6.2 12 2Zm-1.4 8.3h2.8v2.5h-2.8v-2.5Z"/></svg>Airflow</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.7a9.3 9.3 0 1 0 9.3 9.3A9.3 9.3 0 0 0 12 2.7Zm-2.3 6.3h4.6v2.1h-4.6Zm0 3.1h4.6v2.1h-4.6Z"/></svg>Docker</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.8c-4 0-7.2 3.2-7.2 7.2 0 4.2 3.2 7.6 7.2 7.6 3.4 0 6.2-2.2 7-5.1h-4.3V9.5h6.1c.2 1.1.2 2.2 0 3.3A8.7 8.7 0 0 1 12 18.5 8.8 8.8 0 0 1 3.2 9.9 8.8 8.8 0 0 1 12 2.8Z"/></svg>PostgreSQL</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><circle cx="12" cy="12" r="7"/><path d="M12 5v14M5 12h14" class="fill-none stroke-current stroke-[1.7]"/></svg>Llama 3</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M5 18.5V5.5h14v13Zm2-10h10v1.5H7Zm0 3h10v1.5H7Zm0 3h7v1.5H7Z"/></svg>Tableau</span>
+				</div>
+				<ul class="text-zinc-400 list-disc ml-4 space-y-2">
+					<li>Engineered an end-to-end ETL pipeline using Apache Airflow and Docker to ingest 5,000+ synthetic retail records into a PostgreSQL star schema.</li>
+					<li>Built a custom Airflow Python operator connecting to a local Llama 3 instance via REST API to automate zero-shot text classification and sentiment extraction on unstructured complaints.</li>
+					<li>Modeled a denormalized data layer powering an interactive Tableau dashboard with geographic heat maps and financial impact metrics.</li>
+				</ul>
+				<div class="flex flex-wrap gap-4 mt-4">
+					<a href="https://public.tableau.com/app/profile/joseph.freitas/viz/AI-DrivenRetailOperationsSentimentDashboard/Dashboard1" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">Tableau</a>
+					<a href="https://github.com/JosephAFreitas/ai-retail-pipeline" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">GitHub</a>
+				</div>
+			</article>
+
+			<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors relative">
+				<span class="absolute right-4 top-4 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">Full-Stack CRUD</span>
+				<h3 class="text-cyan-400 font-semibold text-lg">TaskFlow: Full-Stack Web Application</h3>
+				<div class="mb-4 flex flex-wrap gap-2 text-xs text-zinc-500">
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.6c-5.7 0-10.4 4.7-10.4 10.4S6.3 23.4 12 23.4 22.4 18.7 22.4 13 17.7 2.6 12 2.6Zm.7 4.5h-1.4v7.2l5.9 3.4 0.7-1.2-5.2-3V7.1Z"/></svg>Node.js</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.4c5.4 0 9.6 4.2 9.6 9.6S17.4 21.6 12 21.6 2.4 17.4 2.4 12 6.6 2.4 12 2.4Zm0 1.7A7.9 7.9 0 1 0 19.9 12 7.9 7.9 0 0 0 12 4.1Zm-1.1 3.6h2.2v8.5h-2.2Zm-1.7 2.4h5.6v2.1H9.2Z"/></svg>Express</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.8c-4 0-7.2 3.2-7.2 7.2 0 4.2 3.2 7.6 7.2 7.6 3.4 0 6.2-2.2 7-5.1h-4.3V9.5h6.1c.2 1.1.2 2.2 0 3.3A8.7 8.7 0 0 1 12 18.5 8.8 8.8 0 0 1 3.2 9.9 8.8 8.8 0 0 1 12 2.8Z"/></svg>PostgreSQL</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M13 2h-2v8H3v2h8v8h2v-8h8v-2h-8V2Z"/></svg>JavaScript</span>
+				</div>
+				<ul class="text-zinc-400 list-disc ml-4 space-y-2">
+					<li>Engineered a production-ready full-stack task management application with secure user authentication, bcrypt password hashing, and session-based API route protection.</li>
+					<li>Designed a RESTful API supporting full CRUD operations, intelligent priority-based task sorting, and timezone-aware date handling.</li>
+				</ul>
+				<div class="flex flex-wrap gap-4 mt-4">
+					<a href="https://taskflow-joseph.onrender.com" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">Live Demo</a>
+					<a href="https://github.com/JosephAFreitas/TaskFlow" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">GitHub</a>
+				</div>
+			</article>
+
+			<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors relative">
+				<span class="absolute right-4 top-4 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">AI Search</span>
+				<h3 class="text-cyan-400 font-semibold text-lg">AI-Powered File Inventory and Summarization Tool</h3>
+				<div class="mb-4 flex flex-wrap gap-2 text-xs text-zinc-500">
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.8c-5.3 0-9.6 4.3-9.6 9.6S6.7 22 12 22s9.6-4.3 9.6-9.6A9.6 9.6 0 0 0 12 2.8Zm-1.2 4.7h2.4v8.8h-2.4Zm-1.4-2.1h5.2v1.8H9.4Zm-1.3 12.4h7.8v1.8H8.1Z"/></svg>Python</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M8.5 4.7h7L19 9.3v10.1a1.1 1.1 0 0 1-1.1 1.1H8.5A1.1 1.1 0 0 1 7.4 19.4V5.8A1.1 1.1 0 0 1 8.5 4.7Zm1.5 4.8h5V8.8h-5Zm0 3.1h5v-1.8h-5Zm0 3.1h5v-1.8h-5Z"/></svg>Local LLMs</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M4 6.5h16v11H4zm2 2v7h12v-7zm2 1.5h8v1.5H8zm0 3h5v1.5H8Z"/></svg>Semantic Search</span>
+				</div>
+				<ul class="text-zinc-400 list-disc ml-4 space-y-2">
+					<li>Engineered a custom AI utility to systematically ingest, process, and search through directories of local text files.</li>
+					<li>Implemented local LLM integrations to automatically parse unstructured text documents, generate analytical summaries, and enable context-aware semantic querying across the file inventory.</li>
+				</ul>
+				<div class="flex flex-wrap gap-4 mt-4">
+					<a href="https://github.com/JosephAFreitas/ai-warehouse" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">GitHub</a>
+				</div>
+			</article>
+
+			<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors relative">
+				<span class="absolute right-4 top-4 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">MERN Stack</span>
+				<h3 class="text-cyan-400 font-semibold text-lg">Full-Stack Inventory Management System</h3>
+				<div class="mb-4 flex flex-wrap gap-2 text-xs text-zinc-500">
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.2c4.1 0 7.4 3.3 7.4 7.4S16.1 17 12 17s-7.4-3.3-7.4-7.4S7.9 2.2 12 2.2Zm3.8 9.7c-.4 1.8-1.7 3.2-3.8 3.2-2.2 0-3.7-1.4-3.9-3.2-.2-1.8 1-3.7 3.9-3.7 2.8 0 4 1.9 3.8 3.7Z"/></svg>MongoDB</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.6c5.4 0 9.8 4.3 9.8 9.8s-4.4 9.7-9.8 9.7S2.2 17.8 2.2 12.4 6.6 2.6 12 2.6Zm0 1.9A7.9 7.9 0 0 0 4.1 12c0 4.3 3.5 7.8 7.9 7.8 4.3 0 7.9-3.5 7.9-7.8A7.9 7.9 0 0 0 12 4.5Zm-1 3.4h2v6.3h-2Zm-1.7 2.1h5.4v2.1H9.3Z"/></svg>Express</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.2 20.8 7v10L12 21.8 3.2 17V7Zm0 2.3L5.5 7.8v8.4L12 18.8l6.5-2.6V7.8Zm-1.2 2.7h2.4v7.9h-2.4Zm-1.5-2.8h5.4v1.8H9.3Z"/></svg>React</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.6c-5.7 0-10.4 4.7-10.4 10.4S6.3 23.4 12 23.4 22.4 18.7 22.4 13 17.7 2.6 12 2.6Zm.7 4.5h-1.4v7.2l5.9 3.4 0.7-1.2-5.2-3V7.1Z"/></svg>Node.js</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.6c-5.5 0-9.9 4.4-9.9 9.9s4.4 9.9 9.9 9.9 9.9-4.4 9.9-9.9S17.5 2.6 12 2.6Zm-1.1 16-4.2-4.2 1.4-1.4 2.8 2.8 5.5-5.5 1.4 1.4-6.9 6.9Z"/></svg>JWT</span>
+				</div>
+				<ul class="text-zinc-400 list-disc ml-4 space-y-2">
+					<li>Engineered a MERN stack inventory web application featuring MongoDB schema isolation and secure backend RESTful routes.</li>
+					<li>Implemented JSON Web Token (JWT) authentication for secure access control and integrated comprehensive unit tests to ensure backend reliability.</li>
+				</ul>
+				<div class="flex flex-wrap gap-4 mt-4">
+					<a href="https://github.com/JosephAFreitas/ai-warehouse" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 text-xs font-medium text-cyan-400 hover:text-cyan-300 transition-colors">GitHub</a>
+				</div>
+			</article>
+
+			<article class="p-6 mb-6 rounded-xl bg-zinc-900 border border-zinc-800 hover:border-zinc-700 transition-colors relative">
+				<span class="absolute right-4 top-4 rounded-full border border-yellow-400/30 bg-yellow-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-yellow-300">ML Modeling</span>
+				<h3 class="text-cyan-400 font-semibold text-lg">Machine Learning Predictive Modeling</h3>
+				<div class="mb-4 flex flex-wrap gap-2 text-xs text-zinc-500">
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M12 2.8c-5.3 0-9.6 4.3-9.6 9.6S6.7 22 12 22s9.6-4.3 9.6-9.6A9.6 9.6 0 0 0 12 2.8Zm-1.2 4.7h2.4v8.8h-2.4Zm-1.4-2.1h5.2v1.8H9.4Zm-1.3 12.4h7.8v1.8H8.1Z"/></svg>Python</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M9 4.5h6v1.6h2.6v1.9H6.4V6.1H9V4.5Zm-2.6 7.4h11.2v6.6a1.3 1.3 0 0 1-1.3 1.3H7.7a1.3 1.3 0 0 1-1.3-1.3v-6.6Zm3 1.8h5.2v2.1H9.4Z"/></svg>Data Structures</span>
+					<span class="inline-flex items-center gap-1.5 rounded-full border border-zinc-700 bg-zinc-800/70 px-2 py-1"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-3 w-3 fill-current text-cyan-400"><path d="M8.2 18.2c-2.1-1.1-3.4-3.5-3.4-5.9 0-3.2 2.2-6 5.5-6.6v2.3c-1.8.5-3 2.1-3 4.3 0 1.7 1 3.3 2.5 4.2l-1.6 1.7Zm7.6 0 1.6-1.7c1.6-.9 2.6-2.5 2.6-4.2 0-2.2-1.2-3.8-3-4.3V5.7c3.3.6 5.5 3.4 5.5 6.6 0 2.4-1.3 4.8-3.4 5.9ZM12 7.1a5.1 5.1 0 0 0-5.1 5.1A5.1 5.1 0 0 0 12 17.3 5.1 5.1 0 0 0 17.1 12 5.1 5.1 0 0 0 12 7.1Z"/></svg>Neural Networks</span>
+				</div>
+				<ul class="text-zinc-400 list-disc ml-4 space-y-2">
+					<li>Developed and implemented machine learning models using supervised and unsupervised learning techniques, including classification and regression.</li>
+					<li>Optimized model performance through gradient descent and rigorous evaluation metrics, applying algorithmic analysis to large datasets to drive data decisions.</li>
+				</ul>
+			</article>
+		</section>
+
+		<section class="mb-20">
+			<h2 class="text-zinc-100 text-2xl font-bold mb-6">Education</h2>
+			<div class="p-6 rounded-xl bg-zinc-900/80 border border-zinc-800 hover:border-cyan-500/50 transition-all">
+				<div class="flex items-center justify-between gap-3 mb-2">
+					<h3 class="text-cyan-400 font-semibold text-lg">University of Central Florida</h3>
+					<span class="inline-flex items-center rounded-full border border-yellow-400/40 bg-yellow-500/10 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wide text-yellow-300">Honors Student</span>
+				</div>
+				<p class="text-zinc-500 mb-4 text-sm">Bachelor of Science in Computer Science | Expected Graduation: Spring 2027</p>
+				<div class="flex flex-wrap gap-2">
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">Robot Vision</span>
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">AI for Game Programming</span>
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">Algorithms for Machine Learning</span>
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">Systems Software</span>
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">Statistics III</span>
+					<span class="px-3 py-1 rounded-full text-xs font-medium bg-zinc-800/80 border border-zinc-700 text-zinc-300">Data Structures &amp; Algorithms</span>
+				</div>
+			</div>
+		</section>
+
+		<footer class="mt-32 pb-8 border-t border-zinc-800 pt-8 flex flex-col md:flex-row justify-between items-center text-zinc-500 text-sm">
+			<p>© 2026 Joseph Freitas. Built with Astro &amp; Tailwind.</p>
+			<div class="flex gap-6 mt-4 md:mt-0">
+				<a href="https://github.com/JosephAFreitas" target="_blank" class="inline-flex items-center gap-2 hover:text-cyan-400 transition-colors"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.9.58.11.79-.25.79-.56v-2.12c-3.2.7-3.87-1.54-3.87-1.54-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.48.11-3.08 0 0 .97-.31 3.18 1.18a10.95 10.95 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.6.23 2.79.11 3.08.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.27 5.67.42.36.78 1.08.78 2.18v3.23c0 .31.21.68.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>GitHub</a>
+				<a href="https://www.linkedin.com/in/joseph-freitas-35897a3a8" target="_blank" class="inline-flex items-center gap-2 hover:text-cyan-400 transition-colors"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-current"><path d="M6.94 8.5A1.56 1.56 0 1 1 6.94 5.4a1.56 1.56 0 0 1 0 3.1ZM5.5 9.78h2.9v8.72H5.5V9.78Zm4.8 0h2.77v1.19h.04c.39-.73 1.33-1.5 2.74-1.5 2.93 0 3.47 1.92 3.47 4.42v6.61h-2.9v-6.18c0-1.47-.03-3.37-2.05-3.37-2.05 0-2.37 1.6-2.37 3.25v6.3h-2.9V9.78Z"/></svg>LinkedIn</a>
+				<a href="mailto:joseph.freitas.a@gmail.com" class="inline-flex items-center gap-2 hover:text-cyan-400 transition-colors"><svg viewBox="0 0 24 24" aria-hidden="true" class="h-4 w-4 fill-none stroke-current stroke-[1.8]"><path d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9A2.5 2.5 0 0 1 17.5 19h-11A2.5 2.5 0 0 1 4 16.5v-9Z"/><path d="M5 7l7 5 7-5"/></svg>Email</a>
+			</div>
+		</footer>
+
+	</main>
 </Layout>
