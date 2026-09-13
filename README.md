@@ -1,46 +1,30 @@
-# Astro Starter Kit: Basics
+# Joseph Freitas Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+A personal portfolio built with Astro and Tailwind CSS.
+
+## Local development
+
+```bash
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The site runs locally at http://localhost:4321.
 
-## 🚀 Project Structure
+## Production build
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```bash
+npm run build
+npm run preview
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Publishing
 
-## 🧞 Commands
+This project is ready for deployment on Vercel. Connect the GitHub repository in Vercel and use the default Astro build settings.
 
-All commands are run from the root of the project, from a terminal:
+## Files to note
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Main page: `src/pages/index.astro`
+- Global layout: `src/layouts/Layout.astro`
+- Global styles: `src/styles/global.css`
+- Resume asset: `public/JosephAFreitas2026-9-7Resume.pdf`
